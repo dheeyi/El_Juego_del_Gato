@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/FrameLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView
+        android:id="@+id/img_back_portrait"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/fondo"
+        android:visibility="visible" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:id="@+id/tv_titulo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_span="3"
+                android:gravity="center"
+                android:text="El Juego del Gato"
+                android:textSize="30sp"
+                android:shadowColor="@color/azul"
+                android:shadowDx="5"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:textColor="@color/azul"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" />
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:weightSum="15">
+                <ImageView
+                    android:src="@drawable/a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageV_uno"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp" />
+                <ImageView
+                    android:src="@drawable/a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageV_dos"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp" />
+                <ImageView
+                    android:src="@drawable/a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageV_tres"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:weightSum="15">
+                <ImageView
+                    android:src="@drawable/a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageV_cuatro"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp" />
+                <ImageView
+                    android:src="@drawable/a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageV_cinco"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp" />
+                <ImageView
+                    android:src="@drawable/a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageV_seis"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:weightSum="15">
+                <ImageView
+                    android:src="@drawable/a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageV_siete"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" />
+                <ImageView
+                    android:src="@drawable/a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageV_ocho"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp" />
+                <ImageView
+                    android:src="@drawable/a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageV_nueve"
+                    android:layout_weight="5"
+                    android:layout_marginRight="5dp" />
+            </TableRow>
+            <TextView
+                android:id="@+id/tv_jugador"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_span="3"
+                android:gravity="center"
+                android:text="Empiece a Jugar"
+                android:textSize="25sp"
+                android:shadowColor="@color/naranja"
+                android:shadowDx="5"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:textColor="@color/rojo"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="2dp" />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bt_jugar"
+                android:layout_weight="5"
+                android:background="@color/naranja"
+                android:textColor="@color/blanco"
+                android:shadowColor="@color/blanco"
+                android:shadowDx="2"
+                android:shadowDy="3"
+                android:shadowRadius="1.8"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:text="REINICIAR"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

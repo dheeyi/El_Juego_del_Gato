@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rojo">#FC0411</color>
+	<color name="azul">#4C2EF6</color>
+	<color name="naranja">#F6B02E</color>
+	<color name="verdeagua">#72DF64</color>
+	<color name="celeste">#7BD7EB</color>
+	<color name="blanco">#ffffff</color>
+	<color name="amraillobajo">#F0E989</color>
+	<color name="puzzle_hint_2">#2000ff80</color>
+	<color name="puzzle_selected">#64ff8000</color>
+    
+</resources>
